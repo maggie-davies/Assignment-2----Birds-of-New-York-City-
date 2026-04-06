@@ -1,0 +1,74 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 30px;
+  background-color: #AFEEEE;
+  color: black;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+/* formatting the top image - I can't figure out how to get it to display as a banner at the top*/
+.header {
+  display: flex; 
+  justify-content: center;
+  width: 700px;
+  height: 100px;
+}
+
+/* formatting the bird tiles side by side */
+#bird-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+/* Each individual bird */
+.bird {
+  cursor: pointer;
+  width: 160px;
+}
+
+.bird img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border: 4px solid transparent;
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.bird:hover img {
+  transform: scale(1.2);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Highlight the selected bird */
+.bird.selected img {
+  border-color: #333;
+}
+
+.bird p {
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+/* Hidden info panel */
+#info-panel {
+  display: none;
+  max-width: 500px;
+  margin: 0 auto;
+  background: white;
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding: 24px;
+/*   added this so that white text would be visible */
+  background-color: #FFD700;
+}
+
+#info-panel h2 {
+  margin-top: 0;
+}
