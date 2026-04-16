@@ -6,7 +6,7 @@
       },
        warbler: {
         title: "Blackburnian Warbler",
-        fact: "Warblers migrate by night and rest (and eat) during the day. These small birds typically begin migrating in April. Often perching near the tops of trees, warblers can be recognized by their vibrant colors and birdsong. Over 36 species of warbler pass through the city each year.  Warbler fun fact: A group of warblers can be called a bouquet, a fall, a wrench, or a confusion of warblers!"
+        fact: "Warblers migrate by night and rest (and eat) during the day. These small birds typically begin migrating in April. Often perching near the tops of trees, warblers can be recognized by their vibrant colors and birdsong. Over 36 species of warbler pass through the city each year.  A group of warblers can be called a bouquet, a fall, a wrench, or a confusion of warblers!"
       },
       woodcock: {
         title: "American Woodcock",

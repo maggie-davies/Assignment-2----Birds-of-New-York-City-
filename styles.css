@@ -10,13 +10,20 @@ h1 {
   margin-bottom: 30px;
 }
 
-/* formatting the top image - I can't figure out how to get it to display as a banner at the top*/
+/* formatting the header image to display in the center at a reasonable scale*/
 .header {
-  display: flex; 
-  justify-content: center;
-  width: 700px;
-  height: 100px;
+  display: block;
+  margin: auto; 
+  width: 50%;
 }
+
+/* old code to format the header image: didn't work so I removed
+  .header{
+    display: flex; 
+    justify-content: center;
+    width: 700px;
+    height: 100px;
+} */
 
 /* formatting the bird tiles side by side */
 #bird-list {
